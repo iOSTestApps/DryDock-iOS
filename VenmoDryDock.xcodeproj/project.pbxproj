@@ -43,10 +43,11 @@
 
 /* Begin PBXFileReference section */
 		07264EE6196D936000B6E821 /* VDDConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VDDConstants.h; sourceTree = "<group>"; };
+		0E38A3C18A526AFD0BAF81F4 /* Pods-VenmoDryDock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenmoDryDock.release.xcconfig"; path = "Pods/Target Support Files/Pods-VenmoDryDock/Pods-VenmoDryDock.release.xcconfig"; sourceTree = "<group>"; };
 		3A9E32BD18F8522F0090BEF1 /* NSString+DryDock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+DryDock.h"; path = "Categories/NSString+DryDock.h"; sourceTree = "<group>"; };
 		3A9E32BE18F8522F0090BEF1 /* NSString+DryDock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+DryDock.m"; path = "Categories/NSString+DryDock.m"; sourceTree = "<group>"; };
-		432B5753CFC24CA4BD42964A /* Pods-VenmoDryDockTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenmoDryDockTests.xcconfig"; path = "Pods/Pods-VenmoDryDockTests.xcconfig"; sourceTree = "<group>"; };
 		5B9E479EABA0439E964514CA /* libPods-VenmoDryDockTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VenmoDryDockTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCB517D40F2A7E3CCEEA274 /* Pods-VenmoDryDockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenmoDryDockTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VenmoDryDockTests/Pods-VenmoDryDockTests.debug.xcconfig"; sourceTree = "<group>"; };
 		83FC5C4018D4B8A1005A3B3E /* VenmoDryDock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenmoDryDock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83FC5C4318D4B8A1005A3B3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		83FC5C4518D4B8A1005A3B3E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -75,8 +76,9 @@
 		B6FBEC4A197F6C6500A8C89C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6FBEC4C197F6C6500A8C89C /* NSString+DryDockSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+DryDockSpec.m"; sourceTree = "<group>"; };
 		B6FBEC4E197F6C6500A8C89C /* VenmoDryDockTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VenmoDryDockTests-Prefix.pch"; sourceTree = "<group>"; };
+		BF4D359F38EF28227D02FBED /* Pods-VenmoDryDock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenmoDryDock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VenmoDryDock/Pods-VenmoDryDock.debug.xcconfig"; sourceTree = "<group>"; };
 		C2C43A3818F1DF1C00E11746 /* VDDModelKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDDModelKeys.m; sourceTree = "<group>"; };
-		D01733A591F2466AB846E69E /* Pods-VenmoDryDock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenmoDryDock.xcconfig"; path = "Pods/Pods-VenmoDryDock.xcconfig"; sourceTree = "<group>"; };
+		FCEA22E06EAA86D3AA5EBC45 /* Pods-VenmoDryDockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenmoDryDockTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VenmoDryDockTests/Pods-VenmoDryDockTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		314DCC48946962430455188E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF4D359F38EF28227D02FBED /* Pods-VenmoDryDock.debug.xcconfig */,
+				0E38A3C18A526AFD0BAF81F4 /* Pods-VenmoDryDock.release.xcconfig */,
+				5BCB517D40F2A7E3CCEEA274 /* Pods-VenmoDryDockTests.debug.xcconfig */,
+				FCEA22E06EAA86D3AA5EBC45 /* Pods-VenmoDryDockTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3A9E32BC18F852000090BEF1 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,8 +134,7 @@
 				B6FBEC46197F6C6500A8C89C /* VenmoDryDockTests */,
 				83FC5C4218D4B8A1005A3B3E /* Frameworks */,
 				83FC5C4118D4B8A1005A3B3E /* Products */,
-				D01733A591F2466AB846E69E /* Pods-VenmoDryDock.xcconfig */,
-				432B5753CFC24CA4BD42964A /* Pods-VenmoDryDockTests.xcconfig */,
+				314DCC48946962430455188E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -296,7 +308,7 @@
 				ORGANIZATIONNAME = "Chris Maddern";
 				TargetAttributes = {
 					83FC5C3F18D4B8A1005A3B3E = {
-						DevelopmentTeam = QK3APTBF2M;
+						DevelopmentTeam = 8G9SJKMB6B;
 					};
 					B6FBEC41197F6C6500A8C89C = {
 						TestTargetID = 83FC5C3F18D4B8A1005A3B3E;
@@ -358,7 +370,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-VenmoDryDockTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VenmoDryDockTests/Pods-VenmoDryDockTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AB35763C981542458EBF182E /* Check Pods Manifest.lock */ = {
@@ -403,7 +415,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-VenmoDryDock-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VenmoDryDock/Pods-VenmoDryDock-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -545,12 +557,13 @@
 		};
 		83FC5C7618D4B8A1005A3B3E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D01733A591F2466AB846E69E /* Pods-VenmoDryDock.xcconfig */;
+			baseConfigurationReference = BF4D359F38EF28227D02FBED /* Pods-VenmoDryDock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Doe Pics Hit Inc";
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VenmoDryDock/VenmoDryDock-Prefix.pch";
 				INFOPLIST_FILE = "VenmoDryDock/VenmoDryDock-Info.plist";
@@ -563,12 +576,13 @@
 		};
 		83FC5C7718D4B8A1005A3B3E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D01733A591F2466AB846E69E /* Pods-VenmoDryDock.xcconfig */;
+			baseConfigurationReference = 0E38A3C18A526AFD0BAF81F4 /* Pods-VenmoDryDock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Doe Pics Hit Inc";
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VenmoDryDock/VenmoDryDock-Prefix.pch";
 				INFOPLIST_FILE = "VenmoDryDock/VenmoDryDock-Info.plist";
@@ -581,7 +595,7 @@
 		};
 		B6FBEC51197F6C6500A8C89C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 432B5753CFC24CA4BD42964A /* Pods-VenmoDryDockTests.xcconfig */;
+			baseConfigurationReference = 5BCB517D40F2A7E3CCEEA274 /* Pods-VenmoDryDockTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VenmoDryDock.app/VenmoDryDock";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -604,7 +618,7 @@
 		};
 		B6FBEC52197F6C6500A8C89C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 432B5753CFC24CA4BD42964A /* Pods-VenmoDryDockTests.xcconfig */;
+			baseConfigurationReference = FCEA22E06EAA86D3AA5EBC45 /* Pods-VenmoDryDockTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VenmoDryDock.app/VenmoDryDock";
 				FRAMEWORK_SEARCH_PATHS = (
